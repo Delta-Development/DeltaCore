@@ -2,6 +2,6 @@ name: DeltaCore
 version: ${project.version}
 main: club.deltapvp.core.Core
 
-api-version: 1.16
+api-version: 1.13
 
 softdepend: [ ProtocolLib ]

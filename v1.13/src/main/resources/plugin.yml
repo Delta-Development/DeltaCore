@@ -1,0 +1,4 @@
+name: V1_13
+version: '${project.version}'
+main: club.deltapvp.core.version.v1_13.V1_13
+api-version: 1.13
