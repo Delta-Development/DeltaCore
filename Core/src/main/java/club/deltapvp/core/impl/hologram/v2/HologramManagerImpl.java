@@ -1,7 +1,7 @@
 package club.deltapvp.core.impl.hologram.v2;
 
 import club.deltapvp.core.Core;
-import club.deltapvp.core.version.v1_13_2.hologram.HologramHandler1_13;
+import club.deltapvp.core.version.v1_13.hologram.HologramHandler1_13;
 import club.deltapvp.core.version.v1_16.hologram.HologramHandler1_16;
 import club.deltapvp.core.version.v1_8_8.hologram.HologramHandler1_8;
 import club.deltapvp.deltacore.api.DeltaPlugin;

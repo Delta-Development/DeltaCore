@@ -1,7 +1,7 @@
 package club.deltapvp.core.impl.sign;
 
 import club.deltapvp.core.Core;
-import club.deltapvp.core.version.v1_13_2.SignMenuFactory1_13;
+import club.deltapvp.core.version.v1_13.SignMenuFactory1_13;
 import club.deltapvp.core.version.v1_16.SignMenuFactory1_16;
 import club.deltapvp.core.version.v1_8_8.SignMenuFactory1_8;
 import club.deltapvp.deltacore.api.utilities.sign.AbstractSignFactory;
