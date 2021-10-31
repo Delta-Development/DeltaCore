@@ -1,6 +1,6 @@
-package club.deltapvp.core.version.v1_13_2.hologram;
+package club.deltapvp.core.version.v1_13.hologram;
 
-import club.deltapvp.core.version.v1_13_2.hologram.nms.PacketReader;
+import club.deltapvp.core.version.v1_13.hologram.nms.PacketReader;
 import club.deltapvp.deltacore.api.DeltaPlugin;
 import lombok.RequiredArgsConstructor;
 import org.bukkit.entity.Player;

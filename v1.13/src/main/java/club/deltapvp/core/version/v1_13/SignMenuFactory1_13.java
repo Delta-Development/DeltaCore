@@ -1,4 +1,4 @@
-package club.deltapvp.core.version.v1_13_2;
+package club.deltapvp.core.version.v1_13;
 
 import club.deltapvp.deltacore.api.utilities.sign.AbstractSignFactory;
 import club.deltapvp.deltacore.api.utilities.sign.AbstractSignMenu;

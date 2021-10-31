@@ -1,4 +1,4 @@
-package club.deltapvp.core.version.v1_13_2.hologram;
+package club.deltapvp.core.version.v1_13.hologram;
 
 import club.deltapvp.deltacore.api.DeltaPlugin;
 import club.deltapvp.deltacore.api.utilities.DeltaUtils;
