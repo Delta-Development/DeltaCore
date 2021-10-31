@@ -6,11 +6,11 @@ import net.md_5.bungee.api.ChatColor;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class VersionHexValidator extends AbstractHexValidator {
+public class VersionHexValidator1_16 extends AbstractHexValidator {
 
     private final Pattern pattern;
 
-    public VersionHexValidator() {
+    public VersionHexValidator1_16() {
         setInstance(this);
 
         pattern = Pattern.compile("#[a-fA-F0-9]{6}");

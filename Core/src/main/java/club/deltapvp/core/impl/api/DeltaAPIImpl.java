@@ -11,7 +11,6 @@ import club.deltapvp.core.impl.scoreboard.ScoreboardManagerImpl;
 import club.deltapvp.core.impl.serialize.iBukkitSerializer;
 import club.deltapvp.core.impl.sign.IVirtualSignEditor;
 import club.deltapvp.core.impl.skull.ICustomSkull;
-import club.deltapvp.core.impl.timeconverter.iTimeConverter;
 import club.deltapvp.core.impl.update.iUpdateChecker;
 import club.deltapvp.core.impl.version.iVersionChecker;
 import club.deltapvp.deltacore.api.DeltaAPI;
@@ -25,9 +24,10 @@ import club.deltapvp.deltacore.api.utilities.message.iface.Message;
 import club.deltapvp.deltacore.api.utilities.serialization.BukkitSerializer;
 import club.deltapvp.deltacore.api.utilities.sign.VirtualSignEditor;
 import club.deltapvp.deltacore.api.utilities.skull.CustomSkull;
-import club.deltapvp.deltacore.api.utilities.time.TimeConversion;
 import club.deltapvp.deltacore.api.utilities.version.VersionChecker;
+import lombok.NonNull;
 
+import javax.annotation.Nonnull;
 import java.util.List;
 
 public class DeltaAPIImpl extends DeltaAPI {
@@ -36,7 +36,6 @@ public class DeltaAPIImpl extends DeltaAPI {
     private final InputListener inputListener;
     private final VersionChecker versionChecker;
     private final UpdateChecker updateChecker;
-    private final TimeConversion timeConversion;
     private final FileLoader fileLoader;
     private final BukkitSerializer bukkitSerializer;
     private final HexValidator hexValidator;
@@ -50,7 +49,6 @@ public class DeltaAPIImpl extends DeltaAPI {
         inputListener = new iInputListener();
         versionChecker = new iVersionChecker();
         updateChecker = new iUpdateChecker();
-        timeConversion = new iTimeConverter();
         fileLoader = new iFileLoader();
         bukkitSerializer = new iBukkitSerializer();
         hexValidator = new iHexValidator();
@@ -82,18 +80,13 @@ public class DeltaAPIImpl extends DeltaAPI {
     }
 
     @Override
-    public Message createMessage(String s) {
+    public Message createMessage(@NonNull String s) {
         return new iMessage(s);
     }
 
     @Override
-    public Message createMessage(List<String> list) {
+    public Message createMessage(@NonNull List<String> list) {
         return new iMessage(list);
-    }
-
-    @Override
-    public TimeConversion getTimeConverter() {
-        return timeConversion;
     }
 
     @Override
@@ -122,7 +115,7 @@ public class DeltaAPIImpl extends DeltaAPI {
     }
 
     @Override
-    public CustomSkull createCustomSkull(String url) {
+    public CustomSkull createCustomSkull(@Nonnull String url) {
         return new ICustomSkull(url);
     }
 

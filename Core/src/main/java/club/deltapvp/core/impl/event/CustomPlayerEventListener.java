@@ -12,19 +12,6 @@ import org.bukkit.event.entity.EntityDamageEvent;
 
 public class CustomPlayerEventListener implements Listener {
 
-    // TODO: Make a better JumpEvent calculation thing.
-//    @EventHandler
-//    public void onJump(PlayerStatisticIncrementEvent event) {
-//        Player player = event.getPlayer();
-//        Statistic statistic = event.getStatistic();
-//        boolean isJump = statistic.equals(Statistic.JUMP);
-//        if (!isJump)
-//            return;
-//
-//        PlayerJumpEvent e = new PlayerJumpEvent(player);
-//        e.call();
-//    }
-
     @EventHandler
     public void onDamage(EntityDamageEvent event) {
         Entity entity = event.getEntity();

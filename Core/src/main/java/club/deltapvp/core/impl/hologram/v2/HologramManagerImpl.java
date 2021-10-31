@@ -1,9 +1,16 @@
 package club.deltapvp.core.impl.hologram.v2;
 
 import club.deltapvp.core.Core;
+import club.deltapvp.core.version.v1_10.hologram.HologramHandler1_10;
+import club.deltapvp.core.version.v1_11.hologram.HologramHandler1_11;
+import club.deltapvp.core.version.v1_12.hologram.HologramHandler1_12;
 import club.deltapvp.core.version.v1_13.hologram.HologramHandler1_13;
+import club.deltapvp.core.version.v1_14.hologram.HologramHandler1_14;
+import club.deltapvp.core.version.v1_15.hologram.HologramHandler1_15;
 import club.deltapvp.core.version.v1_16.hologram.HologramHandler1_16;
+import club.deltapvp.core.version.v1_17.hologram.HologramHandler1_17;
 import club.deltapvp.core.version.v1_8_8.hologram.HologramHandler1_8;
+import club.deltapvp.core.version.v1_9.hologram.HologramHandler1_9;
 import club.deltapvp.deltacore.api.DeltaPlugin;
 import club.deltapvp.deltacore.api.utilities.hologram.v2.Hologram;
 import club.deltapvp.deltacore.api.utilities.hologram.v2.backend.AbstractHologramHandler;
@@ -26,10 +33,24 @@ public class HologramManagerImpl extends HologramManager {
         Core plugin = Core.getInstance();
         if (version.equals(ServerVersion.V1_8))
             handler = new HologramHandler1_8(plugin);
+        if (version.equals(ServerVersion.V1_9))
+            handler = new HologramHandler1_9(plugin);
+        if (version.equals(ServerVersion.V1_10))
+            handler = new HologramHandler1_10(plugin);
+        if (version.equals(ServerVersion.V1_11))
+            handler = new HologramHandler1_11(plugin);
+        if (version.equals(ServerVersion.V1_12))
+            handler = new HologramHandler1_12(plugin);
         if (version.equals(ServerVersion.V1_13))
             handler = new HologramHandler1_13(plugin);
+        if (version.equals(ServerVersion.V1_14))
+            handler = new HologramHandler1_14(plugin);
+        if (version.equals(ServerVersion.V1_15))
+            handler = new HologramHandler1_15(plugin);
         if (version.equals(ServerVersion.V1_16))
             handler = new HologramHandler1_16(plugin);
+        if (version.equals(ServerVersion.V1_17))
+            handler = new HologramHandler1_17(plugin);
 
         if (handler == null)
             System.out.println("[DeltaAPI Error] This Version of Minecraft does not support the Packet-Based Hologram API.");

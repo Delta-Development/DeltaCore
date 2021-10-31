@@ -21,4 +21,9 @@ public class iVersionChecker implements VersionChecker {
     public boolean isLegacy() {
         return serverVersion.isAtMost(ServerVersion.V1_12); // Could also return !isModern()
     }
+
+    @Override
+    public ServerVersion getVersion() {
+        return serverVersion;
+    }
 }
