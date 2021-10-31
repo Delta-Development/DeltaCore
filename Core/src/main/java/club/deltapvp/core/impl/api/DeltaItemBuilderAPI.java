@@ -1,6 +1,5 @@
 package club.deltapvp.core.impl.api;
 
-import club.deltapvp.core.version.v1_10.VersionItemBuilder1_10;
 import club.deltapvp.core.version.v1_11.VersionItemBuilder1_11;
 import club.deltapvp.core.version.v1_12.VersionItemBuilder1_12;
 import club.deltapvp.core.version.v1_13.VersionItemBuilder1_13;
@@ -9,7 +8,6 @@ import club.deltapvp.core.version.v1_15.VersionItemBuilder1_15;
 import club.deltapvp.core.version.v1_16.VersionItemBuilder1_16;
 import club.deltapvp.core.version.v1_17.VersionItemBuilder1_17;
 import club.deltapvp.core.version.v1_8_8.VersionItemBuilder1_8;
-import club.deltapvp.core.version.v1_9.VersionItemBuilder1_9;
 import club.deltapvp.deltacore.api.DeltaAPI;
 import club.deltapvp.deltacore.api.utilities.builder.itembuilder.APIItemBuilder;
 import club.deltapvp.deltacore.api.utilities.builder.itembuilder.AbstractVersionItemBuilder;
@@ -52,14 +50,6 @@ public class DeltaItemBuilderAPI extends APIItemBuilder {
         }
         if (version.equals(ServerVersion.V1_11)) {
             versionItemBuilder = new VersionItemBuilder1_11();
-            return;
-        }
-        if (version.equals(ServerVersion.V1_10)) {
-            versionItemBuilder = new VersionItemBuilder1_10();
-            return;
-        }
-        if (version.equals(ServerVersion.V1_9)) {
-            versionItemBuilder = new VersionItemBuilder1_9();
         } else {
             versionItemBuilder = new VersionItemBuilder1_8();
         }

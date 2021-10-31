@@ -1,3 +1,0 @@
-name: V1_9
-version: '${project.version}'
-main: club.deltapvp.core.version.v1_9.V1_9
