@@ -6,6 +6,7 @@ import club.deltapvp.core.impl.api.DeltaSQLAPIImpl;
 import club.deltapvp.core.impl.event.CustomPlayerEventListener;
 import club.deltapvp.core.impl.gui.GUIListener;
 import club.deltapvp.core.impl.hologram.HologramListener;
+import club.deltapvp.core.impl.shortcommands.ShortCommandsListener;
 import club.deltapvp.deltacore.api.DeltaAPI;
 import club.deltapvp.deltacore.api.DeltaPlugin;
 import lombok.Getter;
@@ -28,7 +29,8 @@ public final class Core extends DeltaPlugin {
         registerListeners(
                 new GUIListener(),
                 new HologramListener(),
-                new CustomPlayerEventListener()
+                new CustomPlayerEventListener(),
+                new ShortCommandsListener()
         );
 
     }

@@ -114,19 +114,19 @@
             <scope>provided</scope>
         </dependency>
         <!-- Production Branch -->
-        <dependency>
-            <groupId>com.github.Delta-Development</groupId>
-            <artifactId>DeltaAPI</artifactId>
-            <version>1.1.12</version>
-            <scope>compile</scope>
-        </dependency>
+                <dependency>
+                    <groupId>com.github.Delta-Development</groupId>
+                    <artifactId>DeltaAPI</artifactId>
+                    <version>1.1.13</version>
+                    <scope>compile</scope>
+                </dependency>
         <!-- Development Branch -->
-        <!--        <dependency>-->
-        <!--            <groupId>com.github.Delta-Development</groupId>-->
-        <!--            <artifactId>DeltaAPI</artifactId>-->
-        <!--            <version>dfe6c47d6c</version>-->
-        <!--            <scope>compile</scope>-->
-        <!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.github.Delta-Development</groupId>-->
+<!--            <artifactId>DeltaAPI</artifactId>-->
+<!--            <version>5342e999a3</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>club.deltapvp.core.version</groupId>
             <artifactId>v1_8_8</artifactId>

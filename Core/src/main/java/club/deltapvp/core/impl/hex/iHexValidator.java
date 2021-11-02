@@ -9,7 +9,6 @@ import club.deltapvp.deltacore.api.utilities.version.ServerVersion;
 import club.deltapvp.deltacore.api.utilities.version.VersionChecker;
 import lombok.SneakyThrows;
 import net.md_5.bungee.api.ChatColor;
-import org.bukkit.Bukkit;
 
 public class iHexValidator implements HexValidator {
     private final boolean isHexVersion;
