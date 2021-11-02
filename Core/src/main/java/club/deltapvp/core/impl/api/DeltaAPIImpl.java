@@ -80,12 +80,12 @@ public class DeltaAPIImpl extends DeltaAPI {
     }
 
     @Override
-    public Message createMessage(@NonNull String s) {
+    public Message createMessage( String s) {
         return new iMessage(s);
     }
 
     @Override
-    public Message createMessage(@NonNull List<String> list) {
+    public Message createMessage(List<String> list) {
         return new iMessage(list);
     }
 
