@@ -7,7 +7,6 @@ import club.deltapvp.core.impl.hologram.IHologramManager;
 import club.deltapvp.core.impl.hologram.v2.HologramManagerImpl;
 import club.deltapvp.core.impl.inputlistener.iInputListener;
 import club.deltapvp.core.impl.message.iMessage;
-import club.deltapvp.core.impl.scoreboard.ScoreboardManagerImpl;
 import club.deltapvp.core.impl.serialize.iBukkitSerializer;
 import club.deltapvp.core.impl.sign.IVirtualSignEditor;
 import club.deltapvp.core.impl.skull.ICustomSkull;
@@ -56,7 +55,6 @@ public class DeltaAPIImpl extends DeltaAPI {
         virtualSignEditor = new IVirtualSignEditor();
 
         new HologramManagerImpl();
-        new ScoreboardManagerImpl();
     }
 
     @Override
