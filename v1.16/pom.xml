@@ -113,19 +113,19 @@
             <scope>provided</scope>
         </dependency>
         <!-- Production Branch -->
-        <!--        <dependency>-->
-        <!--            <groupId>com.github.Delta-Development</groupId>-->
-        <!--            <artifactId>DeltaAPI</artifactId>-->
-        <!--            <version>1.1.15</version>-->
-        <!--            <scope>provided</scope>-->
-        <!--        </dependency>-->
-        <!-- Development Branch -->
         <dependency>
             <groupId>com.github.Delta-Development</groupId>
             <artifactId>DeltaAPI</artifactId>
-            <version>77e98edd00</version>
+            <version>1.3.0</version>
             <scope>provided</scope>
         </dependency>
+        <!-- Development Branch -->
+        <!--        <dependency>-->
+        <!--            <groupId>com.github.Delta-Development</groupId>-->
+        <!--            <artifactId>DeltaAPI</artifactId>-->
+        <!--            <version>77e98edd00</version>-->
+        <!--            <scope>compile</scope>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>com.comphenix.protocol</groupId>
             <artifactId>ProtocolLib</artifactId>
