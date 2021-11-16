@@ -16,9 +16,9 @@
 package club.deltapvp.core.version.v1_13.hologram.nms;
 
 import club.deltapvp.core.version.v1_13.hologram.HologramHandler1_13;
-import club.deltapvp.deltacore.api.DeltaPlugin;
-import club.deltapvp.deltacore.api.utilities.hologram.v2.Hologram;
-import club.deltapvp.deltacore.api.utilities.hologram.v2.HologramInteractEvent;
+import club.deltapvp.api.DeltaPlugin;
+import club.deltapvp.api.utilities.hologram.v2.Hologram;
+import club.deltapvp.api.utilities.hologram.v2.HologramInteractEvent;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToMessageDecoder;

@@ -15,7 +15,7 @@
 
 package club.deltapvp.core.version.v1_14;
 
-import club.deltapvp.deltacore.api.utilities.builder.itembuilder.AbstractVersionItemBuilder;
+import club.deltapvp.api.utilities.builder.itembuilder.AbstractVersionItemBuilder;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 

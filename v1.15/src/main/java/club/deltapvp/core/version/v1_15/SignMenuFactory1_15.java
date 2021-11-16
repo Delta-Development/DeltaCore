@@ -15,8 +15,8 @@
 
 package club.deltapvp.core.version.v1_15;
 
-import club.deltapvp.deltacore.api.utilities.sign.AbstractSignFactory;
-import club.deltapvp.deltacore.api.utilities.sign.AbstractSignMenu;
+import club.deltapvp.api.utilities.sign.AbstractSignFactory;
+import club.deltapvp.api.utilities.sign.AbstractSignMenu;
 import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.ProtocolLibrary;
 import com.comphenix.protocol.events.PacketAdapter;

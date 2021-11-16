@@ -15,10 +15,10 @@
 
 package club.deltapvp.core.version.v1_15.hologram;
 
-import club.deltapvp.deltacore.api.DeltaPlugin;
-import club.deltapvp.deltacore.api.utilities.DeltaUtils;
-import club.deltapvp.deltacore.api.utilities.hologram.v2.Hologram;
-import club.deltapvp.deltacore.api.utilities.hologram.v2.backend.AbstractHologramHandler;
+import club.deltapvp.api.DeltaPlugin;
+import club.deltapvp.api.utilities.DeltaUtils;
+import club.deltapvp.api.utilities.hologram.v2.Hologram;
+import club.deltapvp.api.utilities.hologram.v2.backend.AbstractHologramHandler;
 import net.minecraft.server.v1_15_R1.*;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
