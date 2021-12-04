@@ -15,7 +15,7 @@
 
 package club.deltapvp.core;
 
-import club.deltapvp.core.Metrics.Metrics;
+import club.deltapvp.core.metrics.Metrics;
 import club.deltapvp.core.api.DeltaAPIProvider;
 import club.deltapvp.core.api.DeltaItemBuilderAPI;
 import club.deltapvp.core.api.DeltaSQLAPIProvider;

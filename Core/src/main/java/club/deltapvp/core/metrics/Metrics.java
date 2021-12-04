@@ -1,4 +1,4 @@
-package club.deltapvp.core.Metrics;
+package club.deltapvp.core.metrics;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
