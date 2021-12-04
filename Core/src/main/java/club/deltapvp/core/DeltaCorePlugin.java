@@ -15,6 +15,7 @@
 
 package club.deltapvp.core;
 
+import club.deltapvp.core.Metrics.Metrics;
 import club.deltapvp.core.api.DeltaAPIProvider;
 import club.deltapvp.core.api.DeltaItemBuilderAPI;
 import club.deltapvp.core.api.DeltaSQLAPIProvider;
@@ -48,6 +49,9 @@ public final class DeltaCorePlugin extends DeltaPlugin {
                 new ShortCommandsListener()
         );
 
+        // Metrics
+        int pluginId = 13479;
+        new Metrics(this, pluginId);
     }
 
     @Override
