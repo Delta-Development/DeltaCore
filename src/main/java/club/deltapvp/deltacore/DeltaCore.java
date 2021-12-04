@@ -17,6 +17,10 @@ public final class DeltaCore extends JavaPlugin {
         setInstance(this);
 
         new APIInitializer();
+
+        // Metrics
+        int pluginId = 13479;
+        new Metrics(this, pluginId);
     }
 
     @Override
